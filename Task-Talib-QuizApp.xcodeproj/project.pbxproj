@@ -1,0 +1,487 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		59653F53FD0135F48CBBC1BF /* Pods_Task_Talib_QuizApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01BA105FC971668D2EF06AC5 /* Pods_Task_Talib_QuizApp.framework */; };
+		9D21DDB226175FD000754503 /* QuestionsAnswers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D21DDB126175FD000754503 /* QuestionsAnswers.swift */; };
+		9D21DDC12617635100754503 /* Question.json in Resources */ = {isa = PBXBuildFile; fileRef = 9D21DDC02617635100754503 /* Question.json */; };
+		9D3F1BC9261482300095B1F7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D3F1BC8261482300095B1F7 /* AppDelegate.swift */; };
+		9D3F1BCB261482300095B1F7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D3F1BCA261482300095B1F7 /* SceneDelegate.swift */; };
+		9D3F1BCD261482300095B1F7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D3F1BCC261482300095B1F7 /* ViewController.swift */; };
+		9D3F1BD0261482300095B1F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D3F1BCE261482300095B1F7 /* Main.storyboard */; };
+		9D3F1BD3261482300095B1F7 /* Task_Talib_QuizApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9D3F1BD1261482300095B1F7 /* Task_Talib_QuizApp.xcdatamodeld */; };
+		9D3F1BD5261482320095B1F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D3F1BD4261482320095B1F7 /* Assets.xcassets */; };
+		9D3F1BD8261482320095B1F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D3F1BD6261482320095B1F7 /* LaunchScreen.storyboard */; };
+		9D3F1BE1261489AD0095B1F7 /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D3F1BE0261489AD0095B1F7 /* QuizViewController.swift */; };
+		9D3F1BE426148AD10095B1F7 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D3F1BE326148AD10095B1F7 /* ResultViewController.swift */; };
+		9D6F181726173EC3009B7C1D /* ResultTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D6F181526173EC2009B7C1D /* ResultTableViewCell.swift */; };
+		9D6F181826173EC3009B7C1D /* ResultTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D6F181626173EC2009B7C1D /* ResultTableViewCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		01BA105FC971668D2EF06AC5 /* Pods_Task_Talib_QuizApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Task_Talib_QuizApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		903E85FAC24D6876EAE213D3 /* Pods-Task-Talib-QuizApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Task-Talib-QuizApp.release.xcconfig"; path = "Target Support Files/Pods-Task-Talib-QuizApp/Pods-Task-Talib-QuizApp.release.xcconfig"; sourceTree = "<group>"; };
+		9D21DDB126175FD000754503 /* QuestionsAnswers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionsAnswers.swift; sourceTree = "<group>"; };
+		9D21DDC02617635100754503 /* Question.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Question.json; sourceTree = "<group>"; };
+		9D3F1BC5261482300095B1F7 /* Task-Talib-QuizApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Task-Talib-QuizApp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D3F1BC8261482300095B1F7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9D3F1BCA261482300095B1F7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9D3F1BCC261482300095B1F7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9D3F1BCF261482300095B1F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9D3F1BD2261482300095B1F7 /* Task_Talib_QuizApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Task_Talib_QuizApp.xcdatamodel; sourceTree = "<group>"; };
+		9D3F1BD4261482320095B1F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9D3F1BD7261482320095B1F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9D3F1BD9261482320095B1F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D3F1BE0261489AD0095B1F7 /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
+		9D3F1BE326148AD10095B1F7 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ResultViewController.swift; path = ../ResultViewController.swift; sourceTree = "<group>"; };
+		9D6F181526173EC2009B7C1D /* ResultTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultTableViewCell.swift; sourceTree = "<group>"; };
+		9D6F181626173EC2009B7C1D /* ResultTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ResultTableViewCell.xib; sourceTree = "<group>"; };
+		DFE745B5FB64355B453D07DF /* Pods-Task-Talib-QuizApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Task-Talib-QuizApp.debug.xcconfig"; path = "Target Support Files/Pods-Task-Talib-QuizApp/Pods-Task-Talib-QuizApp.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9D3F1BC2261482300095B1F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59653F53FD0135F48CBBC1BF /* Pods_Task_Talib_QuizApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		68222D8475DD7BF206971B6D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				01BA105FC971668D2EF06AC5 /* Pods_Task_Talib_QuizApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9D21DDAC26175DEF00754503 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9D6F181526173EC2009B7C1D /* ResultTableViewCell.swift */,
+				9D3F1BCE261482300095B1F7 /* Main.storyboard */,
+				9D6F181626173EC2009B7C1D /* ResultTableViewCell.xib */,
+				9D3F1BD6261482320095B1F7 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9D3F1BBC261482300095B1F7 = {
+			isa = PBXGroup;
+			children = (
+				9D3F1BC7261482300095B1F7 /* Task-Talib-QuizApp */,
+				9D3F1BC6261482300095B1F7 /* Products */,
+				E6BD7A2CC6667ECBACFEE559 /* Pods */,
+				68222D8475DD7BF206971B6D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9D3F1BC6261482300095B1F7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9D3F1BC5261482300095B1F7 /* Task-Talib-QuizApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9D3F1BC7261482300095B1F7 /* Task-Talib-QuizApp */ = {
+			isa = PBXGroup;
+			children = (
+				9D3F1BC8261482300095B1F7 /* AppDelegate.swift */,
+				9D3F1BCA261482300095B1F7 /* SceneDelegate.swift */,
+				9D6F181B26175B0F009B7C1D /* Model */,
+				9D6F181A26175ACF009B7C1D /* Controller */,
+				9D99C1FC26175C900047C3E8 /* Resources */,
+				9D3F1BD9261482320095B1F7 /* Info.plist */,
+				9D21DDAC26175DEF00754503 /* View */,
+				9D3F1BD1261482300095B1F7 /* Task_Talib_QuizApp.xcdatamodeld */,
+				9D21DDB126175FD000754503 /* QuestionsAnswers.swift */,
+				9D21DDC02617635100754503 /* Question.json */,
+			);
+			path = "Task-Talib-QuizApp";
+			sourceTree = "<group>";
+		};
+		9D6F181A26175ACF009B7C1D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9D3F1BCC261482300095B1F7 /* ViewController.swift */,
+				9D3F1BE0261489AD0095B1F7 /* QuizViewController.swift */,
+				9D3F1BE326148AD10095B1F7 /* ResultViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9D6F181B26175B0F009B7C1D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9D99C1FC26175C900047C3E8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9D3F1BD4261482320095B1F7 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E6BD7A2CC6667ECBACFEE559 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DFE745B5FB64355B453D07DF /* Pods-Task-Talib-QuizApp.debug.xcconfig */,
+				903E85FAC24D6876EAE213D3 /* Pods-Task-Talib-QuizApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9D3F1BC4261482300095B1F7 /* Task-Talib-QuizApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D3F1BDC261482320095B1F7 /* Build configuration list for PBXNativeTarget "Task-Talib-QuizApp" */;
+			buildPhases = (
+				D9887421AF712EC6FCDC3362 /* [CP] Check Pods Manifest.lock */,
+				9D3F1BC1261482300095B1F7 /* Sources */,
+				9D3F1BC2261482300095B1F7 /* Frameworks */,
+				9D3F1BC3261482300095B1F7 /* Resources */,
+				C8191920C67668597E4B0D95 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Task-Talib-QuizApp";
+			productName = "Task-Talib-QuizApp";
+			productReference = 9D3F1BC5261482300095B1F7 /* Task-Talib-QuizApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9D3F1BBD261482300095B1F7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					9D3F1BC4261482300095B1F7 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 9D3F1BC0261482300095B1F7 /* Build configuration list for PBXProject "Task-Talib-QuizApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9D3F1BBC261482300095B1F7;
+			productRefGroup = 9D3F1BC6261482300095B1F7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9D3F1BC4261482300095B1F7 /* Task-Talib-QuizApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9D3F1BC3261482300095B1F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D6F181826173EC3009B7C1D /* ResultTableViewCell.xib in Resources */,
+				9D21DDC12617635100754503 /* Question.json in Resources */,
+				9D3F1BD8261482320095B1F7 /* LaunchScreen.storyboard in Resources */,
+				9D3F1BD5261482320095B1F7 /* Assets.xcassets in Resources */,
+				9D3F1BD0261482300095B1F7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C8191920C67668597E4B0D95 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Task-Talib-QuizApp/Pods-Task-Talib-QuizApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Task-Talib-QuizApp/Pods-Task-Talib-QuizApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Task-Talib-QuizApp/Pods-Task-Talib-QuizApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D9887421AF712EC6FCDC3362 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Task-Talib-QuizApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9D3F1BC1261482300095B1F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D3F1BCD261482300095B1F7 /* ViewController.swift in Sources */,
+				9D3F1BE1261489AD0095B1F7 /* QuizViewController.swift in Sources */,
+				9D3F1BC9261482300095B1F7 /* AppDelegate.swift in Sources */,
+				9D3F1BD3261482300095B1F7 /* Task_Talib_QuizApp.xcdatamodeld in Sources */,
+				9D3F1BCB261482300095B1F7 /* SceneDelegate.swift in Sources */,
+				9D3F1BE426148AD10095B1F7 /* ResultViewController.swift in Sources */,
+				9D6F181726173EC3009B7C1D /* ResultTableViewCell.swift in Sources */,
+				9D21DDB226175FD000754503 /* QuestionsAnswers.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9D3F1BCE261482300095B1F7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D3F1BCF261482300095B1F7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9D3F1BD6261482320095B1F7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D3F1BD7261482320095B1F7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9D3F1BDA261482320095B1F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9D3F1BDB261482320095B1F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9D3F1BDD261482320095B1F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFE745B5FB64355B453D07DF /* Pods-Task-Talib-QuizApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Task-Talib-QuizApp/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Syed.Task-Talib-QuizApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9D3F1BDE261482320095B1F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 903E85FAC24D6876EAE213D3 /* Pods-Task-Talib-QuizApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Task-Talib-QuizApp/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Syed.Task-Talib-QuizApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9D3F1BC0261482300095B1F7 /* Build configuration list for PBXProject "Task-Talib-QuizApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D3F1BDA261482320095B1F7 /* Debug */,
+				9D3F1BDB261482320095B1F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D3F1BDC261482320095B1F7 /* Build configuration list for PBXNativeTarget "Task-Talib-QuizApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D3F1BDD261482320095B1F7 /* Debug */,
+				9D3F1BDE261482320095B1F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9D3F1BD1261482300095B1F7 /* Task_Talib_QuizApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9D3F1BD2261482300095B1F7 /* Task_Talib_QuizApp.xcdatamodel */,
+			);
+			currentVersion = 9D3F1BD2261482300095B1F7 /* Task_Talib_QuizApp.xcdatamodel */;
+			path = Task_Talib_QuizApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9D3F1BBD261482300095B1F7 /* Project object */;
+}
