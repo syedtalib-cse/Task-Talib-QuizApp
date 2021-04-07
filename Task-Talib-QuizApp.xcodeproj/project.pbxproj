@@ -18,9 +18,9 @@
 		9D3F1BD5261482320095B1F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D3F1BD4261482320095B1F7 /* Assets.xcassets */; };
 		9D3F1BD8261482320095B1F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D3F1BD6261482320095B1F7 /* LaunchScreen.storyboard */; };
 		9D3F1BE1261489AD0095B1F7 /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D3F1BE0261489AD0095B1F7 /* QuizViewController.swift */; };
-		9D3F1BE426148AD10095B1F7 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D3F1BE326148AD10095B1F7 /* ResultViewController.swift */; };
 		9D6F181726173EC3009B7C1D /* ResultTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D6F181526173EC2009B7C1D /* ResultTableViewCell.swift */; };
 		9D6F181826173EC3009B7C1D /* ResultTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D6F181626173EC2009B7C1D /* ResultTableViewCell.xib */; };
+		9D9884DF261DE7D6009108DD /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D9884DE261DE7D6009108DD /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,9 +38,9 @@
 		9D3F1BD7261482320095B1F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9D3F1BD9261482320095B1F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9D3F1BE0261489AD0095B1F7 /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
-		9D3F1BE326148AD10095B1F7 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ResultViewController.swift; path = ../ResultViewController.swift; sourceTree = "<group>"; };
 		9D6F181526173EC2009B7C1D /* ResultTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultTableViewCell.swift; sourceTree = "<group>"; };
 		9D6F181626173EC2009B7C1D /* ResultTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ResultTableViewCell.xib; sourceTree = "<group>"; };
+		9D9884DE261DE7D6009108DD /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 		DFE745B5FB64355B453D07DF /* Pods-Task-Talib-QuizApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Task-Talib-QuizApp.debug.xcconfig"; path = "Target Support Files/Pods-Task-Talib-QuizApp/Pods-Task-Talib-QuizApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -115,7 +115,7 @@
 			children = (
 				9D3F1BCC261482300095B1F7 /* ViewController.swift */,
 				9D3F1BE0261489AD0095B1F7 /* QuizViewController.swift */,
-				9D3F1BE326148AD10095B1F7 /* ResultViewController.swift */,
+				9D9884DE261DE7D6009108DD /* ResultViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -263,9 +263,9 @@
 				9D3F1BCD261482300095B1F7 /* ViewController.swift in Sources */,
 				9D3F1BE1261489AD0095B1F7 /* QuizViewController.swift in Sources */,
 				9D3F1BC9261482300095B1F7 /* AppDelegate.swift in Sources */,
+				9D9884DF261DE7D6009108DD /* ResultViewController.swift in Sources */,
 				9D3F1BD3261482300095B1F7 /* Task_Talib_QuizApp.xcdatamodeld in Sources */,
 				9D3F1BCB261482300095B1F7 /* SceneDelegate.swift in Sources */,
-				9D3F1BE426148AD10095B1F7 /* ResultViewController.swift in Sources */,
 				9D6F181726173EC3009B7C1D /* ResultTableViewCell.swift in Sources */,
 				9D21DDB226175FD000754503 /* QuestionsAnswers.swift in Sources */,
 			);
